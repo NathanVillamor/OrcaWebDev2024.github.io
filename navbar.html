@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Navbar Templates </title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .divider {
+            margin: 5rem 5rem 5rem 5rem;
+            border: 1px solid gray;
+            width: 75rem;
+        }
+
+        /* NAVBAR #1 */
+        .nav1-container nav {
+            display: flex;
+            justify-content: space-between;
+
+            padding: 1.5rem 5rem 1rem 5rem;
+        }
+
+        .nav1-container a {
+            color: black;
+            text-decoration: none;
+
+            transition: .5s;
+        }
+
+        .nav1-container a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .nav1-container ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav1-container ul li {
+            list-style-type: none;
+
+            margin-right: 2rem;
+        }
+
+        /* NAVBAR #2 */
+        .nav2-container nav{
+            display: flex;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <!-- NAVBAR #1 -->
+    <div class="nav1-container">
+        <nav>
+            <h3 class="logo"> Logo </h3>
+
+                <ul class="links">
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#"> About </a></li>
+                    <li><a href="#"> Contact </a></li>
+                </ul>
+        </nav>
+    </div>
+
+    <div class="divider"></div>
+
+        <!-- NAVBAR #2 -->
+        <div class="nav2-container">
+            <nav>
+                <h3 class="logo"> Logo </h3>
+    
+                <ul class="links">
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#"> About </a></li>
+                    <li><a href="#"> Contact </a></li>
+                </ul>
+    
+                <button class="button1"> Button 1 </button>
+                <button class="button2"> Button 2 </button>
+            </nav>
+        </div>
+
+</body>
+
+</html>
