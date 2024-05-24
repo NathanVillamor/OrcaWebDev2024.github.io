@@ -12,3 +12,7 @@ The following components include:
 These section serve as a building block for the participants to copy-paste and
 combine together in order to create their own unique website. 
 
+The prompt of the workshop challenges the participants to not only copy-paste
+but also complete the missing HTML & CSS elements in order to make their 
+website holistic. 
+
