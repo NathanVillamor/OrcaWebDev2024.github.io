@@ -8,7 +8,6 @@ The following components include:
 1. Navigation Bars
 2. Website Heroes / Main Page
 3. About Us Section
-4. Contact Form 
 
 These section serve as a building block for the participants to copy-paste and
 combine together in order to create their own unique website. 

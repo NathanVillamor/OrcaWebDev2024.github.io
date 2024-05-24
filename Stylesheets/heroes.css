@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+
+    /* Choose your font */
+    font-family: ;
+
+    margin: 0;
+    padding: 0;
+}
+
+/* HERO #1 */
+
+.hero1-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*  */
+    background-color: ;
+}
+
+.hero1-container button {
+    margin-top: 2rem;
+    padding: .4rem;
+}
+
+.hero1-container .text1-container {
+    margin-right: 2rem;
+    width: 30%;
+    float: left;
+}
+
+.hero1-container .text1-container h1 {
+    font-size: 4rem;
+}
+
+.hero1-container img {
+    width: 70%;
+    float: right;
+    border-radius: 20rem;
+    width: auto;
+    height: 50%;
+}
+
+/* HERO #2 */
+.hero2-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*  */
+    background-color: ;
+}
+
+.hero2-container button {
+    margin-top: 2rem;
+    padding: .4rem;
+}
+
+.hero2-container .text2-container {
+    margin-left: 2rem;
+    width: 30%;
+    float: left;
+}
+
+.hero2-container .text2-container h1 {
+    font-size: 4rem;
+}
+
+.hero2-container img {
+    width: 70%;
+    float: left;
+    border-radius: 20rem;
+    width: auto;
+    height: 50%;
+}
+
+/* HERO #3 */
+
+.hero3-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /*  */
+    background-color: ;
+}
+
+.hero3-container img {
+    width: 70%;
+    border-radius: 20rem;
+    width: auto;
+    height: 40%;
+}
+
+.hero3-container .text3-container {
+    text-align: center;
+    width: 50%;
+    margin: 1rem;
+}
+
+.hero3-container .text3-container h1 {
+    font-size: 4rem;
+}
+
+.hero3-container button {
+    margin-top: 2rem;
+    padding: .4rem;
+}
+
+/* HERO #4 */
+.hero4-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*  */
+    background-color: ;
+}
+
+.hero4-container .text4-container {
+    margin: 5rem;
+}
+
+.hero4-container .text4-container h1 {
+    font-size: 4rem;
+}
+
+.hero4-container img {
+    width: auto;
+    height: 100%;
+}
+
+.hero4-container button {
+    margin-top: 2rem;
+    padding: .4rem;
+}
+
+/* HERO #5 */
+
+.hero5-container {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /*  */
+    background-color: ;
+
+    background-image: url(/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero5-container .text5-container {
+    opacity: 100%;
+    color
+}
+
+.hero5-container .text5-container h1 {
+    font-size: 4rem;
+}
+
+.hero5-container .text5-container {
+    width: 50%;
+}
+
+.hero5-container button {
+    margin-top: 2rem;
+    padding: .4rem;
+}

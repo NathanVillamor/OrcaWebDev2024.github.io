@@ -1,31 +1,42 @@
 * {
     box-sizing: border-box;
-
     padding: 0;
     margin: 0;
 }
 
-.divider {
-    margin: 5rem 5rem 5rem 5rem;
-    border: 1px solid gray;
-    width: 85rem;
-}
-
-/* About Us #1 */
-
-.aboutUs1-container {
-    background-color: aqua;
+.aboutUs1 {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    padding: 15rem;
-    height: 50vh;
+    height: 100vh;
 }
 
-.img {
-    background-color: blue;
-    width: 50rem;
+.container1 {
+    box-shadow: rgba(0, 0, 0, 0.675) .5rem .5rem 5rem .2rem;
+    text-align: center;
+    padding: 1.5rem;
+    width: 70rem;
     height: 30rem;
-    margin-right: 2rem;
+
+}
+
+.container1 h1 {
+    margin-bottom: .5rem;
+}
+
+.container1 hr {
+    margin-bottom: 1rem;
+}
+
+.description1 {
+    text-align: justify;
+    width: 45%;
+    float: left;
+}
+
+.description2 {
+    text-align: justify;
+    width: 45%;
+    float: right;
 }
