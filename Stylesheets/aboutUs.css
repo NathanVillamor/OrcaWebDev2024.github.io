@@ -137,3 +137,49 @@
     height: 30rem;
     float: right;
 }
+
+/* About Me 5 */
+.aboutMe5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.aboutMe5 img {
+    border-radius: 20rem;
+    z-index: 2;
+    margin-bottom: -3rem;
+}
+
+.container5 {
+    box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
+    text-align: center;
+    padding: 2rem;
+    width: 70rem;
+    height: 25rem;
+
+}
+
+.container5 h1 {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.container5 hr {
+    margin-bottom: 1rem;
+}
+
+.description6 {
+    text-align: justify;
+    width: 45%;
+    float: left;
+}
+
+.description7 {
+    text-align: justify;
+    width: 45%;
+    float: right;
+}
