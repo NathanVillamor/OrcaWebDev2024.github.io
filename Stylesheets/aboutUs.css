@@ -69,3 +69,35 @@
     width: 45%;
     float: right;
 }
+
+/* About Me 3 */
+.aboutMe3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.aboutMe3 img {
+    width: auto;
+    height: 30rem;
+    border-radius: 20rem;
+    z-index: 1;
+}
+
+.container3{
+    box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
+    border-radius: 1rem;
+    padding: 2rem 2rem 2rem 5rem;
+    margin-left: -4rem;
+    height: 20rem;
+}
+
+.container3 h1 {
+    margin-bottom: .5rem;
+}
+
+.container3 hr {
+    margin-bottom: 1rem;
+}
