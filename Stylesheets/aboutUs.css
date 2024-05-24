@@ -101,3 +101,39 @@
 .container3 hr {
     margin-bottom: 1rem;
 }
+
+/* About Me 4 */
+
+.aboutMe4 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.container4 {
+    box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
+    height: 30rem;
+}
+
+.description5 {
+    float: left;
+    width: 60%;
+    padding: 2rem;
+}
+
+.description5 h1 {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.description5 hr {
+    margin-bottom: 1rem;
+}
+
+.container4 img {
+    width: auto;
+    height: 30rem;
+    float: right;
+}
