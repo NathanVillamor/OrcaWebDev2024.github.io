@@ -1,0 +1,491 @@
+/* GENERAL CSS */
+/* Always include! */
+* {
+    box-sizing: border-box;
+    
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+    transition: 0.5s;
+}
+
+a:hover {
+    color: blue;
+    font-size: 1.05rem;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    color: white;
+    border-color: blue;
+    background-color: blue;
+
+    padding: 0.4rem;
+    
+    transition: .5s;
+}
+
+button:hover {
+    color: blue;
+    border-color: blue;
+    background-color: white;
+
+    padding: 0.5rem;
+}
+
+/* GENERAL CSS */
+
+/* 
+    NAVIGATION 
+    BAR 
+    SECTION
+*/
+
+/* NAVBAR #1 */
+.nav1-container nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.5rem 5rem 1rem 5rem;
+}
+
+.nav1-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1-container ul li {
+    list-style-type: none;
+
+    margin-right: 2rem;
+}
+/* NAVBAR #1 */
+
+/* NAVBAR #2 */
+.nav2-container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.5rem 5rem 1rem 5rem;
+}
+
+.nav2-container ul {
+    display: flex;
+
+}
+
+.nav2-container ul li {
+    list-style: none;
+    
+    margin-right: 3rem;
+}
+
+.nav2-container button {
+    margin-left: 1rem;
+}
+/* NAVBAR #2 */
+
+/* NAVBAR #3 */
+.nav3-container nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.5rem 5rem 1rem 5rem;
+}
+
+.nav3-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav3-container ul li {
+    margin-left: 3rem;
+}
+/* NAVBAR #3 */
+
+/* 
+    HERO 
+    SECTION
+*/
+
+/* HERO #1 */
+.hero1-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*  */
+    background-color: ;
+}
+
+.hero1-container button {
+    margin-top: 2rem;
+    padding: .4rem;
+}
+
+.hero1-container .text1-container {
+    margin-right: 2rem;
+    width: 30%;
+    float: left;
+}
+
+.hero1-container .text1-container h1 {
+    font-size: 4rem;
+}
+
+.hero1-container img {
+    width: 70%;
+    float: right;
+    border-radius: 20rem;
+    width: auto;
+    height: 50%;
+}
+/* HERO #1 */
+
+/* HERO #2 */
+.hero2-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*  */
+    background-color: ;
+}
+
+.hero2-container button {
+    margin-top: 2rem;
+    padding: .4rem;
+}
+
+.hero2-container .text2-container {
+    margin-left: 2rem;
+    width: 30%;
+    float: left;
+}
+
+.hero2-container .text2-container h1 {
+    font-size: 4rem;
+}
+
+.hero2-container img {
+    width: 70%;
+    float: left;
+    border-radius: 20rem;
+    width: auto;
+    height: 50%;
+}
+/* HERO #2 */
+
+
+/* HERO #3 */
+.hero3-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /*  */
+    background-color: ;
+}
+
+.hero3-container img {
+    width: 70%;
+    border-radius: 20rem;
+    width: auto;
+    height: 40%;
+}
+
+.hero3-container .text3-container {
+    text-align: center;
+    width: 50%;
+    margin: 1rem;
+}
+
+.hero3-container .text3-container h1 {
+    font-size: 4rem;
+}
+
+.hero3-container button {
+    margin-top: 2rem;
+    padding: .4rem;
+}
+/* HERO #3 */
+
+/* HERO #4 */
+.hero4-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*  */
+    background-color: ;
+}
+
+.hero4-container .text4-container {
+    margin: 5rem;
+}
+
+.hero4-container .text4-container h1 {
+    font-size: 4rem;
+}
+
+.hero4-container img {
+    width: auto;
+    height: 100%;
+}
+
+.hero4-container button {
+    margin-top: 2rem;
+    padding: .4rem;
+}
+/* HERO #4 */
+
+
+/* HERO #5 */
+.hero5-container {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /*  */
+    background-color: ;
+
+    background-image: url(/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero5-container .text5-container {
+    opacity: 100%;
+    color
+}
+
+.hero5-container .text5-container h1 {
+    font-size: 4rem;
+}
+
+.hero5-container .text5-container {
+    width: 50%;
+}
+
+.hero5-container button {
+    margin-top: 2rem;
+    padding: .4rem;
+}
+/* HERO #5 */
+
+/* 
+    ABOUT 
+    ME
+    SECTION
+*/
+
+/* About Me #1 */
+.aboutMe1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container1 {
+    box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
+    text-align: center;
+    padding: 2rem;
+    width: 70rem;
+    height: 30rem;
+
+}
+
+.container1 h1 {
+    margin-bottom: .5rem;
+}
+
+.container1 hr {
+    margin-bottom: 1rem;
+}
+
+.description1 {
+    text-align: justify;
+    width: 45%;
+    float: left;
+}
+
+.description2 {
+    text-align: justify;
+    width: 45%;
+    float: right;
+}
+/* About Me #1 */
+
+
+/* About Me #2 */
+.aboutMe2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    margin: 2rem;
+    height: 100vh;  
+}
+
+.container2 {
+    box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
+    padding: 2rem;
+    width: 65rem;
+    height: 30rem;
+}
+
+.description3 {
+    width: 45%;
+    float: left;
+}
+
+.description4 {
+    width: 45%;
+    float: right;
+}
+/* About Me #2 */
+
+
+/* About Me 3 */
+.aboutMe3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.aboutMe3 img {
+    width: auto;
+    height: 30rem;
+    border-radius: 20rem;
+    z-index: 1;
+}
+
+.container3{
+    box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
+    border-radius: 1rem;
+    padding: 2rem 2rem 2rem 5rem;
+    margin-left: -4rem;
+    height: 20rem;
+}
+
+.container3 h1 {
+    margin-bottom: .5rem;
+}
+
+.container3 hr {
+    margin-bottom: 1rem;
+}
+/* About Me 3 */
+
+
+/* About Me 4 */
+.aboutMe4 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.container4 {
+    box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
+    height: 30rem;
+}
+
+.description5 {
+    float: left;
+    width: 60%;
+    padding: 2rem;
+}
+
+.description5 h1 {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.description5 hr {
+    margin-bottom: 1rem;
+}
+
+.container4 img {
+    width: auto;
+    height: 30rem;
+    float: right;
+}
+/* About Me 4 */
+
+
+/* About Me 5 */
+.aboutMe5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.aboutMe5 img {
+    border-radius: 20rem;
+    z-index: 2;
+    margin-bottom: -3rem;
+}
+
+.container5 {
+    box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
+    text-align: center;
+    padding: 2rem;
+    width: 70rem;
+    height: 25rem;
+
+}
+
+.container5 h1 {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.container5 hr {
+    margin-bottom: 1rem;
+}
+
+.description6 {
+    text-align: justify;
+    width: 45%;
+    float: left;
+}
+
+.description7 {
+    text-align: justify;
+    width: 45%;
+    float: right;
+}
+/* About Me 5 */
