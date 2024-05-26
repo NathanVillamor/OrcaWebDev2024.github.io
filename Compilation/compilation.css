@@ -1,5 +1,7 @@
 /* GENERAL CSS */
+
 /* Always include! */
+
 * {
     box-sizing: border-box;
     
@@ -18,7 +20,8 @@ a {
     transition: 0.5s;
 }
 
-a:hover {
+a:hover { /* CUSTOMIZABLE */
+    /* Color of button when selected  */
     color: blue;
     font-size: 1.05rem;
 }
@@ -27,7 +30,7 @@ li {
     list-style: none;
 }
 
-button {
+button { /* CUSTOMIZABLE */
     color: white;
     border-color: blue;
     background-color: blue;
@@ -37,7 +40,7 @@ button {
     transition: .5s;
 }
 
-button:hover {
+button:hover { /* CUSTOMIZABLE */
     color: blue;
     border-color: blue;
     background-color: white;
@@ -46,6 +49,8 @@ button:hover {
 }
 
 /* GENERAL CSS */
+
+
 
 /* 
     NAVIGATION 
@@ -74,6 +79,8 @@ button:hover {
 }
 /* NAVBAR #1 */
 
+
+
 /* NAVBAR #2 */
 .nav2-container nav{
     display: flex;
@@ -99,6 +106,8 @@ button:hover {
 }
 /* NAVBAR #2 */
 
+
+
 /* NAVBAR #3 */
 .nav3-container nav {
     display: flex;
@@ -118,10 +127,15 @@ button:hover {
 }
 /* NAVBAR #3 */
 
+
+
 /* 
     HERO 
     SECTION
 */
+
+
+
 
 /* HERO #1 */
 .hero1-container {
@@ -157,6 +171,8 @@ button:hover {
     height: 50%;
 }
 /* HERO #1 */
+
+
 
 /* HERO #2 */
 .hero2-container {
@@ -194,6 +210,7 @@ button:hover {
 /* HERO #2 */
 
 
+
 /* HERO #3 */
 .hero3-container {
     height: 100vh;
@@ -229,6 +246,8 @@ button:hover {
 }
 /* HERO #3 */
 
+
+
 /* HERO #4 */
 .hero4-container {
     height: 100vh;
@@ -258,6 +277,7 @@ button:hover {
     padding: .4rem;
 }
 /* HERO #4 */
+
 
 
 /* HERO #5 */
@@ -297,11 +317,15 @@ button:hover {
 }
 /* HERO #5 */
 
+
+
 /* 
     ABOUT 
     ME
     SECTION
 */
+
+
 
 /* About Me #1 */
 .aboutMe1 {
@@ -343,6 +367,7 @@ button:hover {
 /* About Me #1 */
 
 
+
 /* About Me #2 */
 .aboutMe2 {
     display: flex;
@@ -370,6 +395,7 @@ button:hover {
     float: right;
 }
 /* About Me #2 */
+
 
 
 /* About Me 3 */
@@ -404,6 +430,7 @@ button:hover {
     margin-bottom: 1rem;
 }
 /* About Me 3 */
+
 
 
 /* About Me 4 */
@@ -441,6 +468,7 @@ button:hover {
     float: right;
 }
 /* About Me 4 */
+
 
 
 /* About Me 5 */
