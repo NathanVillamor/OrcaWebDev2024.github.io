@@ -292,7 +292,12 @@ button:hover { /* CUSTOMIZABLE */
     /*  */
     background-color: ;
 
+    /* Add BG Image */
+    /* Example:  
     background-image: url(/img.jpg);
+    */
+    background-image: url();
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
