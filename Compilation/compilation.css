@@ -11,10 +11,12 @@
 
 .logo {
     cursor: pointer;
+
+    color: ; /* CUSTOMIZABLE */
 }
 
 a {
-    color: black;
+    color: black; /* CUSTOMIZABLE */
     text-decoration: none;
 
     transition: 0.5s;
@@ -30,20 +32,21 @@ li {
     list-style: none;
 }
 
-button { /* CUSTOMIZABLE */
-    color: white;
-    border-color: blue;
-    background-color: blue;
+button { 
+    color: white; /* CUSTOMIZABLE */
+    border-color: blue; /* CUSTOMIZABLE */
+    background-color: blue; /* CUSTOMIZABLE */
 
     padding: 0.4rem;
     
     transition: .5s;
 }
 
-button:hover { /* CUSTOMIZABLE */
-    color: blue;
-    border-color: blue;
-    background-color: white;
+button:hover {
+    
+    color: blue; /* CUSTOMIZABLE */
+    border-color: blue; /* CUSTOMIZABLE */
+    background-color: rgb(107, 60, 60); /* CUSTOMIZABLE */
 
     padding: 0.5rem;
 }
@@ -60,6 +63,9 @@ button:hover { /* CUSTOMIZABLE */
 
 /* NAVBAR #1 */
 .nav1-container nav {
+
+    background-color: ; /* CUSTOMIZABLE */
+
     display: flex;
     justify-content: space-between;
 
@@ -83,6 +89,9 @@ button:hover { /* CUSTOMIZABLE */
 
 /* NAVBAR #2 */
 .nav2-container nav{
+
+    background-color: ; /* CUSTOMIZABLE */
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,6 +119,8 @@ button:hover { /* CUSTOMIZABLE */
 
 /* NAVBAR #3 */
 .nav3-container nav {
+    background-color: ; /* CUSTOMIZABLE */
+
     display: flex;
     justify-content: space-between;
 
@@ -123,6 +134,7 @@ button:hover { /* CUSTOMIZABLE */
 }
 
 .nav3-container ul li {
+    
     margin-left: 3rem;
 }
 /* NAVBAR #3 */
@@ -144,8 +156,11 @@ button:hover { /* CUSTOMIZABLE */
     justify-content: center;
     align-items: center;
 
-    /*  */
-    background-color: ;
+    background-color: ; /* CUSTOMIZABLE */
+}
+
+.hero1-container p {
+    color: ; /* CUSTOMIZABLE */
 }
 
 .hero1-container button {
@@ -181,8 +196,11 @@ button:hover { /* CUSTOMIZABLE */
     justify-content: center;
     align-items: center;
 
-    /*  */
-    background-color: ;
+    background-color: ; /* CUSTOMIZABLE */
+}
+
+.hero2-container p {
+    color: ; /* CUSTOMIZABLE */
 }
 
 .hero2-container button {
@@ -219,8 +237,11 @@ button:hover { /* CUSTOMIZABLE */
     justify-content: center;
     align-items: center;
 
-    /*  */
-    background-color: ;
+    background-color: ; /* CUSTOMIZABLE */
+}
+
+.hero3-container p {
+    color: ; /* CUSTOMIZABLE */
 }
 
 .hero3-container img {
@@ -255,8 +276,11 @@ button:hover { /* CUSTOMIZABLE */
     justify-content: center;
     align-items: center;
 
-    /*  */
-    background-color: ;
+    background-color: ; /* CUSTOMIZABLE */
+}
+
+.hero4-container p {
+    color: ; /* CUSTOMIZABLE */
 }
 
 .hero4-container .text4-container {
@@ -288,19 +312,21 @@ button:hover { /* CUSTOMIZABLE */
     justify-content: center;
     align-items: center;
 
-
-    /*  */
-    background-color: ;
+    background-color: ; /* CUSTOMIZABLE */
 
     /* Add BG Image */
     /* Example:  
     background-image: url(/img.jpg);
     */
-    background-image: url();
+    background-image: url(); /* CUSTOMIZABLE */
     
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.hero5-container p {
+    color: ; /* CUSTOMIZABLE */
 }
 
 .hero5-container .text5-container {
@@ -334,6 +360,9 @@ button:hover { /* CUSTOMIZABLE */
 
 /* About Me #1 */
 .aboutMe1 {
+
+    background-color: ; /* CUSTOMIZABLE */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,6 +371,8 @@ button:hover { /* CUSTOMIZABLE */
 }
 
 .container1 {
+    background-color: ; /* CUSTOMIZABLE */
+
     box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
     text-align: center;
     padding: 2rem;
@@ -362,12 +393,16 @@ button:hover { /* CUSTOMIZABLE */
     text-align: justify;
     width: 45%;
     float: left;
+
+    color: ; /* CUSTOMIZABLE */
 }
 
 .description2 {
     text-align: justify;
     width: 45%;
     float: right;
+
+    color: ; /* CUSTOMIZABLE */
 }
 /* About Me #1 */
 
@@ -375,6 +410,8 @@ button:hover { /* CUSTOMIZABLE */
 
 /* About Me #2 */
 .aboutMe2 {
+    background-color: ; /* CUSTOMIZABLE */
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -384,6 +421,8 @@ button:hover { /* CUSTOMIZABLE */
 }
 
 .container2 {
+    background-color: ; /* CUSTOMIZABLE */
+
     box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
     padding: 2rem;
     width: 65rem;
@@ -391,11 +430,15 @@ button:hover { /* CUSTOMIZABLE */
 }
 
 .description3 {
+    color: ; /* CUSTOMIZABLE */
+
     width: 45%;
     float: left;
 }
 
 .description4 {
+    color: ; /* CUSTOMIZABLE */
+
     width: 45%;
     float: right;
 }
@@ -405,6 +448,8 @@ button:hover { /* CUSTOMIZABLE */
 
 /* About Me 3 */
 .aboutMe3 {
+    background-color: ; /* CUSTOMIZABLE */
+
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -420,11 +465,17 @@ button:hover { /* CUSTOMIZABLE */
 }
 
 .container3{
+    background-color: ; /* CUSTOMIZABLE */
+
     box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
     border-radius: 1rem;
     padding: 2rem 2rem 2rem 5rem;
     margin-left: -4rem;
     height: 20rem;
+}
+
+.container3 p {
+    color: ; /* CUSTOMIZABLE */
 }
 
 .container3 h1 {
@@ -440,25 +491,33 @@ button:hover { /* CUSTOMIZABLE */
 
 /* About Me 4 */
 .aboutMe4 {
+    background-color: ; /* CUSTOMIZABLE */
+
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    padding: 2rem;
 }
 
 .container4 {
+    background-color: ; /* CUSTOMIZABLE */
+
     box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
     height: 30rem;
 }
 
 .description5 {
+    color: ; /* CUSTOMIZABLE */
+
     float: left;
     width: 60%;
     padding: 2rem;
 }
 
 .description5 h1 {
+    color: ; /* CUSTOMIZABLE */
+
     text-align: center;
     margin-bottom: .5rem;
 }
@@ -478,6 +537,8 @@ button:hover { /* CUSTOMIZABLE */
 
 /* About Me 5 */
 .aboutMe5 {
+    background-color: ; /* CUSTOMIZABLE */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -493,6 +554,8 @@ button:hover { /* CUSTOMIZABLE */
 }
 
 .container5 {
+    background-color: ; /* CUSTOMIZABLE */
+
     box-shadow: 5px 16px 68px -3px rgba(0,0,0,0.57);
     text-align: center;
     padding: 2rem;
@@ -502,6 +565,8 @@ button:hover { /* CUSTOMIZABLE */
 }
 
 .container5 h1 {
+    color: ; /* CUSTOMIZABLE */
+
     margin-top: 1.5rem;
     margin-bottom: .5rem;
 }
@@ -511,12 +576,16 @@ button:hover { /* CUSTOMIZABLE */
 }
 
 .description6 {
+    color: ; /* CUSTOMIZABLE */
+
     text-align: justify;
     width: 45%;
     float: left;
 }
 
 .description7 {
+    color: ; /* CUSTOMIZABLE */
+
     text-align: justify;
     width: 45%;
     float: right;
