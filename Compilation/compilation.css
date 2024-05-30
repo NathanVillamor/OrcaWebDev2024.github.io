@@ -431,7 +431,7 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 2rem;
+    padding: 2rem;
     height: 100vh;  
 }
 
@@ -473,7 +473,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    padding: 2rem;
 }
 
 .aboutMe3 img {
