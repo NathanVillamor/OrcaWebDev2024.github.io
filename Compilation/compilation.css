@@ -45,7 +45,7 @@ button:hover {
     
     color: blue; /* CUSTOMIZABLE */
     border-color: blue; /* CUSTOMIZABLE */
-    background-color: rgb(107, 60, 60); /* CUSTOMIZABLE */
+    background-color: white; /* CUSTOMIZABLE */
 
     padding: 0.5rem;
 }
